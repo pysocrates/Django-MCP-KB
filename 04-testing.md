@@ -5,7 +5,7 @@ keywords: [testing, unittest, test client, database, fixtures]
 tasks:
   - write and run Django tests
   - test a view or database behavior
-related_docs: [00-index.md, 02-models-and-migrations.md, 03-security-and-settings.md]
+related_docs: [00-index.md, 02-models-and-migrations.md, 03-security-and-settings.md, 06-continuous-integration.md]
 last_verified: "2026-10-30"
 ---
 
@@ -32,6 +32,8 @@ isolation; other test frameworks can also integrate with Django.
 
 The test runner creates and uses test databases; read the testing documentation
 before changing test database settings or using an existing database.
+
+For automated pipelines, see [Continuous integration](06-continuous-integration.md).
 
 ## Official sources
 

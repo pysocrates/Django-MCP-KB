@@ -10,13 +10,14 @@ related_docs:
   - 03-security-and-settings.md
   - 04-testing.md
   - 05-deployment.md
+  - 06-continuous-integration.md
 last_verified: "2026-10-30"
 ---
 
 # Django Knowledge Base
 
-A starting point for building Django projects. These guides summarize Django's
-official documentation; they do not describe an existing application or define
+A starting point for building Django projects. These guides draw on Django's
+official documentation and clearly identified additional sources; they do not describe an existing application or define
 an MCP server implementation.
 
 **Baseline:** Django 6.1 documentation, reviewed 2026-10-30. Check the
@@ -34,6 +35,8 @@ applying guidance. Choose a supported release based on your project's needs.
 - [Testing](04-testing.md) — test application behavior with Django's tools.
 - [Deployment](05-deployment.md) — prepare settings, static assets, and a
   production server.
+- [Continuous integration](06-continuous-integration.md) — check migrations,
+  test behavior, and select project-appropriate CI checks.
 
 ## Working with this knowledge base
 

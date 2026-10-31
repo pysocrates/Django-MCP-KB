@@ -2,7 +2,7 @@
 
 A separate, read-only knowledge base for Django project guidance. Start with
 [the index](00-index.md). Its Markdown document format is derived from [MCP Layer Boilerplate](https://github.com/pysocrates/MCP-Layer-Boilerplate), which also provides the Python stdio MCP server used to serve this knowledge base. This repository contains the Django documents; the server lives in the linked repository.
-The documents reference Django 6.1 official documentation; verify applicability
+The documents reference Django 6.1 official documentation and identify additional sources; verify applicability
 against the version used by your project.
 
 ## Connect an MCP client
