@@ -12,6 +12,7 @@ related_docs:
   - 05-deployment.md
   - 06-continuous-integration.md
   - 07-performance-and-query-efficiency.md
+  - 08-celery-and-concurrency.md
 last_verified: "2026-10-30"
 ---
 
@@ -40,6 +41,8 @@ applying guidance. Choose a supported release based on your project's needs.
   test behavior, and select project-appropriate CI checks.
 - [Performance and query efficiency](07-performance-and-query-efficiency.md) —
   measure and prevent query growth, excessive memory use, and slow database work.
+- [Celery workers and concurrency](08-celery-and-concurrency.md) — coordinate
+  background tasks, database transactions, retries, and concurrent updates.
 
 ## Working with this knowledge base
 
