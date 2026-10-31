@@ -1,0 +1,12 @@
+# Local settings, credentials, and development artifacts
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
