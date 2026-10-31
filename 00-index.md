@@ -11,6 +11,7 @@ related_docs:
   - 04-testing.md
   - 05-deployment.md
   - 06-continuous-integration.md
+  - 07-performance-and-query-efficiency.md
 last_verified: "2026-10-30"
 ---
 
@@ -37,6 +38,8 @@ applying guidance. Choose a supported release based on your project's needs.
   production server.
 - [Continuous integration](06-continuous-integration.md) — check migrations,
   test behavior, and select project-appropriate CI checks.
+- [Performance and query efficiency](07-performance-and-query-efficiency.md) —
+  measure and prevent query growth, excessive memory use, and slow database work.
 
 ## Working with this knowledge base
 
